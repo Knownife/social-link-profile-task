@@ -1,0 +1,72 @@
+body{
+	background-color:  hsl(0, 0%, 8%);
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+	color: white;
+}
+
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.person-container{
+	background-color: hsl(0, 0%, 12%);
+	height: 65%;
+	width: 28%;
+	border-radius: 3%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+}
+
+.person-info{
+	height: 40%;
+}
+.person-icon{
+	border-radius: 50%;
+	height: 4rem;
+	margin-top: 2rem;
+}
+.person-name{
+	margin: 10px 4px 4px 4px;
+}
+.person-town{
+	margin: 2px 4px 4px 4px;
+	color: hsl(75, 94%, 57%);
+}
+.person-description{
+	margin: 15px 4px 4px 4px;
+	color: hsl(0, 0%, 20%);
+}
+
+
+.link-list{
+
+	
+	margin-top: 10px;
+	
+}
+.person-list{
+	list-style-type: none;
+	padding: 0 0 0 0;
+	
+}
+
+.person-list-btn{
+	width: 80%;
+	background-color: hsl(0, 0%, 20%);
+	margin: 5px 5px 5px 5px;
+	padding: 10px 10px;
+	color: white;
+	border-radius: 15px;
+	border: 0 solid black;
+}
+.person-list-btn:hover{
+	background-color:hsl(75, 94%, 57%);
+	color:hsl(0, 0%, 20%); 
+}
